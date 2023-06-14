@@ -6,7 +6,7 @@ import java.util.Comparator;
 import java.util.StringTokenizer;
 
 public class Main10814 {
-	public static void main(String[] args) throws NumberFormatException, IOException {
+	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
 		int N = Integer.parseInt(br.readLine());
