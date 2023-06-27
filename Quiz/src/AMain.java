@@ -10,7 +10,8 @@ public class AMain {
 		StringTokenizer st;
 		
 		int N = Integer.parseInt(br.readLine());
-		st = new StringTokenizer(br.readLine());
-		int M = Integer.parseInt(st.nextToken());
+//		st = new StringTokenizer(br.readLine());
+//		int M = Integer.parseInt(st.nextToken());
+
 	}
 }
