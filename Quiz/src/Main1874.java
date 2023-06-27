@@ -9,6 +9,15 @@ public class Main1874 {
 		StringBuilder sb = new StringBuilder();
 		StringTokenizer st;
 
+		int K = Integer.parseInt(br.readLine());
+		String str = br.readLine();
+		int n = str.length();
 
+		for ( int i = 0; i < K; i++ ) {
+			for (int j = 0; j < n/K ;  j++ ) {
+				sb.append(str.charAt(j%2==0?j*K+i:j*K+K-1-i));
+			}
+		}
+		System.out.println(sb);
 	}
 }
