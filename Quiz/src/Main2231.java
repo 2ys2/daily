@@ -21,11 +21,15 @@ public class Main2231 {
 		// i 는 가능한 최솟값인 N - 9 * N의 각 자릿수부터 시작 
 		for(int i = (N - (N_len * 9)); i < N; i++) {
 			int number = i;
-			int sum = 0;	// 각 자릿수 합 변수 
+			int sum = 0;	// 각 자릿수 합 변수
+			
+			System.out.println("number1 : " + number);
 
 			while(number != 0) {
 				sum += number % 10;	// 각 자릿수 더하기
 				number /= 10;
+//				System.out.println("sum : " + sum);
+//				System.out.println("number2 : " + number);
 			}
 
 			// i 값과 각 자릿수 누적합이 같을 경우 (생성자를 찾았을 경우) 
@@ -39,3 +43,16 @@ public class Main2231 {
 		System.out.println(result);
 	}
 }
+
+/*
+216
+
+216-27 = 189
+number1 : 189
+sum : 9 (1<- 89%10)
+number2 : 18 (<-189/10)
+sum : 17 (18%10-> 8 + 9)
+number2 : 1 (<- 17/10)
+sum : 18 ( -> 8 + 9 + 1)
+number2 : 0 (<- 1/10)
+ */
