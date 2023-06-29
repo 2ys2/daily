@@ -1,5 +1,6 @@
 import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 public class Main1026 {
@@ -23,6 +24,8 @@ public class Main1026 {
 			B[i] = Integer.parseInt(st.nextToken());
 
 		}
+		
+		
 
 	}
 }
