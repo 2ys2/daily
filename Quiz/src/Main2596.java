@@ -24,7 +24,7 @@ public class Main2596 {
 				return alp[j];
 			}
 		}
-		return null; //2개 이상 다르면 null 반환
+		return null; //2개 이상 다르면 null 반환9
 	} //end check();
 	
 
